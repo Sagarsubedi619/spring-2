@@ -11,6 +11,7 @@ import javax.persistence.Table;
 /**
  * 
  * @author Sagar Subedi
+ * hello
  *
  */
 
@@ -90,5 +91,8 @@ public class UsersModel {
 		UsersModel other = (UsersModel) obj;
 		return Objects.equals(emailString, other.emailString) && Objects.equals(id, other.id)
 				&& Objects.equals(logString, other.logString) && Objects.equals(passwordString, other.passwordString);
+	}
+	public void name() {
+		
 	}
 }
