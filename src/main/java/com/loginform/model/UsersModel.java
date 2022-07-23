@@ -9,10 +9,7 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 /**
- * 
  * @author Sagar Subedi
- * hello
- *
  */
 
 @Entity
@@ -92,7 +89,5 @@ public class UsersModel {
 		return Objects.equals(emailString, other.emailString) && Objects.equals(id, other.id)
 				&& Objects.equals(logString, other.logString) && Objects.equals(passwordString, other.passwordString);
 	}
-	public void name() {
-		
-	}
+	
 }
